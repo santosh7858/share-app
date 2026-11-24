@@ -1,0 +1,18 @@
+{
+  "appId": "com.securechat.app",
+  "appName": "SecureChat",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": ["*.hf.space"]
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_securechat",
+      "iconColor": "#6C5CE7"
+    }
+  }
+}
